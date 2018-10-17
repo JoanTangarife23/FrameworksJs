@@ -5,12 +5,10 @@
 *{
   box-sizing: border-box;
 }
-
 body{
   background-image: url('../image/background.jpg');
   background-size: cover;
 }
-
 .main-container{
   width: 90%;
   margin: 0 auto;
@@ -18,14 +16,12 @@ body{
   flex-flow: row wrap;
   justify-content: space-between;
 }
-
 .main-titulo{
   font-family: gameFont;
   font-size: 3em;
   color: #DCFF0E;
   width: 100%;
 }
-
 .panel-tablero{
   width: 70%;
   border: 10px solid #E87306;
@@ -35,7 +31,6 @@ body{
   display: flex;
   flex-flow: row wrap;
 }
-
 .panel-score{
   width: 25%;
   height: 700px;
@@ -43,8 +38,6 @@ body{
   flex-flow: column nowrap;
   justify-content: space-between;
 }
-
-
 .score, .moves, .time{
   text-align: center;
   height: 23%;
@@ -53,15 +46,12 @@ body{
   border-radius: 5px;
   background: rgba(232, 115, 6, 0.5);
 }
-
-
 .buttons{
   height: 10%;
   width: 100%;
   display: flex;
   justify-content: center;
 }
-
 .data-titulo, .data-info{
   font-family: gameFont;
   color: #E8CA06;
@@ -96,11 +86,8 @@ div[class^='col']{
   flex-flow: column wrap;
   justify-content: flex-end;
   align-items: center;
-
 }
-
 .elemento{
   width: 99.4px;
   height: 96px;
-
 }
